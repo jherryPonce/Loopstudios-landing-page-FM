@@ -1,0 +1,28 @@
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+a:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+
+.logo, .lista, .t-final, .iconos{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .lista{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista a{
+        padding-top: 0.5rem;
+    }
+    footer{
+        text-align: center;
+    }
+}

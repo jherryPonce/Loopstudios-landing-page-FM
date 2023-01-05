@@ -12,10 +12,10 @@ function Footer() {
             <h2 className="text-white">loopstudios</h2>
           </div>
           <div className="col-sm-3 d-flex justify-content-between iconos">
-            <a><img src={face}></img></a>
-            <a><img src={twiter}></img></a>
-            <a><img src={pinterest}></img></a>
-            <a><img src={instagram}></img></a>
+            <a><img alt="img"  src={face}></img></a>
+            <a><img alt="img"  src={twiter}></img></a>
+            <a><img  alt="img" src={pinterest}></img></a>
+            <a><img  alt="img" src={instagram}></img></a>
           </div>
           <div className="col-sm-4 text-white d-flex justify-content-sm-between lista ">
             <a>About</a>

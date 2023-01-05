@@ -5,7 +5,7 @@ function Seccion1() {
   return (
     <Container className="mb-5 ">
       <div className="container foto mx-2 ">
-        <img  src={imagen}></img>
+        <img alt="img" src={imagen}></img>
         <div className="texto">
         <h3>THE LEADER INTERACTIVE IN INTERACTIVE VR</h3>
         <p>

@@ -16,42 +16,42 @@ export const Navbar = () =>{
         <>
           <Container  className='my-5 '>
             <div className="d-flex justify-content-between py-5">
-                <h4 className="display-6">OUR CREATIONS</h4>
+                <h3 className="display-6">OUR CREATIONS</h3>
                 <button className="bg-white px-5"> SEE ALL</button>
             </div>
             <Row className='mb-3 text-center w-100 mx-auto'>
                 <Col xs={12} sm={6} md={4} lg={3} className="mb-4 position-relative text-white">
-                    <img src={img1} alt=""   className="img-grid" />
+                    <img src={img1} alt="DEEP EARTH"   className="img-grid" />
                     <p className="position-absolute bottom-0 w-50 ms-4 fs-4">DEEP EARTH</p>
                 </Col>
                 <Col xs={12} sm={6} md={4}  lg={3} className="mb-4 position-relative text-white">
-                    <img src={img2} alt=""   className="img-grid" />
+                    <img src={img2} alt="NIGHT ARCADE"   className="img-grid" />
                      <p className="position-absolute bottom-0 w-50 ms-4 fs-4">NIGHT ARCADE</p>
                     </Col>
                 <Col xs={12} sm={6}  md={4} lg={3} className="mb-4 position-relative text-white">
-                    <img src={img3} alt="" className="img-grid" />
+                    <img src={img3} alt="SOCCER TEAM VR" className="img-grid" />
                      <p className="position-absolute bottom-0 w-50 ms-4 fs-4">SOCCER TEAM VR</p>
                 </Col>
                 <Col xs={12} sm={6}  md={4} lg={3} className="mb-4 position-relative text-white">
-                    <img src={img4} alt="" className="img-grid" />
+                    <img src={img4} alt="THE GRID" className="img-grid" />
                      <p className="position-absolute bottom-0 w-50 ms-4 fs-4">THE GRID</p>
                 </Col>
             </Row>
             <Row className="mt-4 text-center w-100 mx-auto">
                 <Col xs={12} sm={6}  md={4} lg={3} className="mb-4 position-relative text-white">
-                    <img src={img5} alt="" className="img-grid" />
+                    <img src={img5} alt="FROM UP ABOVE VR" className="img-grid" />
                      <p className="position-absolute bottom-0 w-50 ms-4 fs-4">FROM UP ABOVE VR</p>
                 </Col>
                 <Col xs={12} sm={6}  md={4} lg={3} className="mb-4 position-relative text-white">
-                    <img src={img6} alt="" className="img-grid" />
+                    <img src={img6} alt="POCKET BOREALIS" className="img-grid" />
                      <p className="position-absolute bottom-0 w-50 ms-4 fs-4">POCKET BOREALIS</p>
                 </Col>
                 <Col xs={12} sm={6}  md={4} lg={3} className="mb-4 position-relative text-white">
-                    <img src={img7} alt="" className="img-grid" />
+                    <img src={img7} alt="THE CURIOSITY" className="img-grid" />
                      <p className="position-absolute bottom-0 w-50 ms-4 fs-4">THE CURIOSITY</p>
                 </Col>
                 <Col xs={12} sm={6}  md={4} lg={3} className=" position-relative text-white ">
-                    <img src={img8} alt="" className="img-grid" />
+                    <img src={img8} alt="MAKE IT FISHEYE" className="img-grid" />
                      <p className="mb-4 position-absolute bottom-0 w-50 ms-4 fs-4">MAKE IT FISHEYE</p>
                 </Col>
             </Row>
